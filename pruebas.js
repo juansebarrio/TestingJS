@@ -4,26 +4,41 @@
 multi linea
 */
 
-// VSC shortcut command+/  -  Multilinea  Option + Shift + A
+// VSC SHORTCUT= Comments command + /  -  Multilinea  Option + Shift + A
 
 // console.log("hola desde el archivo js");
 
+/* VARIABLES!!!!!!!!! */
+
+/* 
 let variableLET = "soy una variable";
 const PI = 3.14;
-
 // las variables let se pueden modificar mas adelante
-
 variableLET = "123";
+console.log(variableLET); 
+*/
 
-console.log(variableLET);
-
-// suma
+/* suma
 let numerouno = 1;
 let numerodos = 2;
 let numerotres = 3;
 let suma = numerouno + numerodos + numerotres;
-alert(suma);
+alert(suma); */
 
-// promptEdad
+/* promptEdad
 let userAge = prompt("Ingresa tu edad");
-console.log(userAge);
+console.log(userAge); */
+
+/*
+nombre y apellido
+let nombre = "Juanse";
+let apellido = "Barrio";
+
+let numero = 12;
+let numeroText = "12";
+
+let nombreComplet = nombre + " " + apellido;
+console.log(nombreComplet);  
+*/
+
+/* CONDICIONALES!!!!!!!!! */
