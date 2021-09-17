@@ -41,4 +41,40 @@ let nombreComplet = nombre + " " + apellido;
 console.log(nombreComplet);  
 */
 
-/* CONDICIONALES!!!!!!!!! */
+/* CONDICIONALES!!!!!!!!! 
+let condicion;
+// if
+if (condicion) {
+  // se ejecuta si condeicion es true
+} else {
+  // se ejecuta si condicion es false
+}
+*/
+
+/*tipo de dato BOOLEANO
+let variableTrue = true;
+let variableFalse = false; */
+
+// Condicional mayor de edad
+
+let edad = prompt("Ingrese su edad");
+
+if (edad >= 18) {
+  console.log("Podes ingresar");
+} else {
+  console.log("No podes ingresar a esta pagina");
+}
+
+// Operadores Logicos
+
+const _user = "juanse";
+const _pass = "asdf";
+
+const user = prompt("Ingresa tu usuario");
+const pass = prompt("Ingresa tu password");
+
+if (user == _user && pass == _pass) {
+  alert("Logueado Correctamente");
+} else {
+  alert("Datos Incorrectos");
+}
